@@ -8,11 +8,11 @@ const EVENTS = require("@bot-whatsapp/bot").EVENTS;
 /**
  * Declaramos las conexiones de MySQL
  */
-const MYSQL_DB_HOST = 'localhost';
+const MYSQL_DB_HOST = 'sfo1.clusters.zeabur.com';
 const MYSQL_DB_USER = 'root';
-const MYSQL_DB_PASSWORD = '';
-const MYSQL_DB_NAME = 'bot';
-const MYSQL_DB_PORT = '3306';
+const MYSQL_DB_PASSWORD = 'sD93zEeU5CVaJp0t24b7L6RcdfFPK1v8';
+const MYSQL_DB_NAME = 'zeabur';
+const MYSQL_DB_PORT = '30100';
 
 const pool = mysql.createPool({
     host: MYSQL_DB_HOST,
